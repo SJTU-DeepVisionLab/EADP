@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local environments
+.env
+.venv/
+venv/
+env/
+
+# Generated outputs
+outputs/
+logs/
+*.log
+*.out
+*.err
+
+# Model/data/cache directories
+checkpoints/
+models/
+datasets/
+LMUData/
+.cache/
+hf_cache/
+
+# Editor/system files
+.DS_Store
+.idea/
+.vscode/

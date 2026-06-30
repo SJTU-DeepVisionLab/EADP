@@ -161,8 +161,19 @@ The image experiments cover common VLM benchmarks such as VQAv2, GQA, VizWiz, Sc
 
 ## Citation
 
-BibTeX will be added after the camera-ready metadata is finalized.
+If you find our work useful, please consider citing:
+```bibtex
+@inproceedings{wang2026eadp,
+  title     = {Combating Textual Noise and Redundancy: Entropy-Aware Dense Visual Token Pruning},
+  author    = {Wang, Xuehui and Yang, Xuankun and Shen, Wei},
+  booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
+  year      = {2026},
+  url       = {https://github.com/SJTU-DeepVisionLab/EADP}
+}
+```
 
 ## Acknowledgements
 
-This project builds on the open-source ecosystems of LLaVA, LLaVA-Video, Qwen-VL, VLMEvalKit, CDPruner, DivPrune, and HiPrune. We thank the authors and contributors of these projects.
+## Acknowledgements
+
+This project builds on the open-source ecosystems of [LLaVA](https://github.com/haotian-liu/LLaVA), [LLaVA-Video](https://github.com/LLaVA-VL/LLaVA-NeXT), [Qwen-VL](https://github.com/QwenLM/Qwen-VL)/[Qwen3-VL](https://github.com/QwenLM/Qwen3-VL), [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), [CDPruner](https://github.com/Theia-4869/CDPruner), [DivPrune](https://github.com/vbdi/divprune), and [HiPrune](https://github.com/Danielement321/HiPrune). We thank the authors and contributors of these projects.
